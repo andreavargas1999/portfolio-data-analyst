@@ -20,15 +20,17 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 
 ### 💼 Expérience Professionnelle
 
-**📊 Data Analyst - Stage** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
-- Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
-- Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
-- Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
 
-**🚀 Co-fondatrice** | Sendvialo, La Paz (Fév - Oct 2025)
+
+**🚀 Co-fondatrice - Responsable Data** | Sendvialo, La Paz (Fév - Oct 2025)
 - Conçu l'architecture complète de la **base de données relationnelle en SQL** (4 tables)
 - Réalisé une analyse stratégique (Python + SQL) identifiant **120 000 voyageurs potentiels/an**
 - Segmenté les corridors géographiques prioritaires pour orienter la stratégie de déploiement
+
+- **📊 Data Analyst - Stage** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
+- Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
+- Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
+- Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
 
 **🔬 Assistante de Recherche** | Fondation Jean-Jacques Laffont, Toulouse (Oct 2023 - Avril 2024)
 - Créé une base de données historique avec **95% de fiabilité sur 8 000 entrées**
