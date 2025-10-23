@@ -20,7 +20,7 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 
 ### 💼 Expérience Professionnelle
 
-**📊 Data Analyst en Alternance** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
+**📊 Data Analyst - Stage** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
 - Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
 - Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
 - Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
@@ -218,5 +218,3 @@ Ce portfolio est sous licence MIT. N'hésitez pas à vous en inspirer pour crée
 **Dernière mise à jour :** Janvier 2025
 
 </div>
-
-Update README - professional and personalized version
