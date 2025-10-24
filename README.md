@@ -20,12 +20,12 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 
 ### 💼 Expérience Professionnelle
 
-**🚀 Co-fondatrice** | Sendvialo, La Paz (Fév - Oct 2025)
+**🚀 Co-fondatrice et Responsable Data** | SendVialo, La Paz (Fév - Oct 2025)
 - Conçu l'architecture complète de la **base de données relationnelle en SQL** (4 tables)
 - Réalisé une analyse stratégique (Python + SQL) identifiant **120 000 voyageurs potentiels/an**
 - Segmenté les corridors géographiques prioritaires pour orienter la stratégie de déploiement
 
-**📊 Data Analyst - Stage** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
+**📊 Data Analyst en alternance** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
 - Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
 - Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
 - Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
@@ -37,8 +37,17 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 
 **Master en Économie Appliquée** | Toulouse School of Economics (2021-2024)
 - Spécialisation : Data Mining & Data Marketing
-- **Bourse Excellence Major** (AEFE, Campus France)
-- Projet Kaggle : Modèles prédictifs avec **82% de précision, classée 2ème**
+- Formation aux méthodes d'analyse statistique, modélisation prédictive, exploitation de bases de données
+- **Projet final** : Modèles prédictifs (Random Forest, XGBoost) avec **82% de précision, classée 2ème**
+- Transformé les résultats en recommandations business concrètes
+
+**Licence en Économie et Gestion** | Université Toulouse 1 Capitole (2018-2021)
+- Bases solides en statistiques, économétrie, probabilités, mathématiques avec R
+- **Projet** : Analyse des écarts salariaux en Arménie 2015 avec modèle économétrique
+
+**Baccalauréat Français et Bolivien avec mention** | Lycée Franco-Bolivien, La Paz (2015-2018)
+- **Bourse Excellence Major** 
+- **Certificat de Reconnaissance du Vice-Président de la Bolivie**
 
 ---
 
@@ -51,12 +60,12 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 **Contexte :** Sendvialo est une plateforme connectant voyageurs et expéditeurs pour le transport de colis. En tant que co-fondatrice, j'ai analysé les données pour orienter nos décisions stratégiques.
 
 **Mon travail :**
-- Analyse d'envois internationaux avec Python (Pandas, Plotly) et SQL
+- Architecture complète de la base de données en SQL (4 tables) avec contrôles qualité
+- Analyses avec Excel et Python (Pandas) pour quantifier les opportunités
 - Identification des routes Europe ↔ Amérique les plus demandées
 - Segmentation par type d'équipement (documents, équipement standard, grands volumes)
-- Analyse tarifaire multi-devises (EUR/USD) pour optimiser les prix
 
-**Résultat :** Estimation de **120 000 voyageurs annuels potentiels** sur les corridors prioritaires
+**Résultat :** Détection d'un potentiel de **120 000 voyageurs annuels**, orientant les investissements stratégiques
 
 **Technologies :** Python • SQL • Pandas • Scikit-learn • Excel
 
@@ -69,14 +78,15 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 **Contexte :** Groupe La Poste souhaitait personnaliser son approche commerciale pour mieux cibler ses 15 000 clients B2B.
 
 **Mon travail :**
-- Modèle de **clustering K-means** analysant 12 variables comportementales
-- Création de 4 segments homogènes avec un **score de silhouette de 0,8**
-- Recommandations stratégiques personnalisées par segment
-- Pilotage autonome de l'optimisation du Datalake marketing
+- Modèle de **clustering K-means** analysant 12 variables comportementales (4 segments, score 0.8)
+- Construction d'indicateurs de suivi et communication des insights aux équipes commerciales
+- Optimisation du Datalake marketing avec SQL et Dataiku
+- Développement de dashboards automatisés pour le suivi hebdomadaire
+- Collaboration avec les équipes marketing pour analyser les campagnes et calculer le ROI
 
-**Résultat :** **+15% de taux de conversion** après implémentation des stratégies par segment
+**Résultat :** **+15% de taux de conversion** + **-30% de temps d'analyse**
 
-**Technologies :** K-means • Dataiku • Excel • PowerPoint
+**Technologies :** K-means • Dataiku • SQL • Excel • PowerPoint
 
 ---
 
