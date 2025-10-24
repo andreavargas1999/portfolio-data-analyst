@@ -15,7 +15,7 @@
 
 ## Bonjour 👋
 
-Je m'appelle Andrea, je suis bolivienne installée à Toulouse depuis 7 ans. Ce qui m'a toujours fasciné avec les données, c'est qu'elles racontent une histoire — il faut juste savoir les écouter. 
+Je m'appelle Andrea, je suis bolivienne installée à Toulouse depuis 7 ans. Ce qui m'a toujours fasciné avec les données, c'est qu'elles racontent une histoire  il faut juste savoir les écouter. 
 
 Mon parcours ? Master en économie appliquée à TSE, puis alternance chez La Poste où j'ai segmenté 15 000 clients B2B (résultat : +15% de conversion). Récemment, j'ai co-fondé une startup de logistique en Bolivie où j'ai construit toute l'architecture data de zéro.
 
