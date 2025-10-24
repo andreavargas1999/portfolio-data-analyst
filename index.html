@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrea Vargas / Data Analyst</title>
+    <title>Andrea Vargas · Portfolio</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500;700;900&display=swap');
-        
         * {
             margin: 0;
             padding: 0;
@@ -14,912 +12,360 @@
         }
         
         body {
-            font-family: 'Helvetica Neue', 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #000;
-            background: #fff;
+            font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+            background: #faf8f6;
+            color: #2d2d2d;
         }
         
-        /* Swiss Grid System */
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 20px;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px;
-        }
-        
-        /* Navigation Swiss Style */
-        .swiss-nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background: #fff;
-            border-bottom: 2px solid #000;
-            z-index: 1000;
-            padding: 20px 0;
-        }
-        
-        .nav-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px;
+        /* Hero con montañas - AZUL */
+        .hero {
+            min-height: 100vh;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-        }
-        
-        .logo {
-            font-size: 1.2em;
-            font-weight: 900;
-            letter-spacing: -0.5px;
-        }
-        
-        .nav-links {
-            display: flex;
-            gap: 40px;
-            list-style: none;
-        }
-        
-        .nav-links a {
-            text-decoration: none;
-            color: #000;
-            font-weight: 500;
-            text-transform: uppercase;
-            font-size: 0.85em;
-            letter-spacing: 1px;
+            justify-content: center;
             position: relative;
+            overflow: hidden;
+            padding: 60px 40px;
+            background: linear-gradient(180deg, #e8eef9 0%, #f5f7fb 100%);
         }
         
-        .nav-links a::after {
-            content: '';
+        /* Montañas SVG AZUL */
+        .mountains-bg {
             position: absolute;
-            bottom: -5px;
+            bottom: 0;
             left: 0;
-            width: 0;
-            height: 2px;
-            background: #000;
-            transition: width 0.3s;
-        }
-        
-        .nav-links a:hover::after {
             width: 100%;
+            height: 55%;
+            z-index: 0;
+            opacity: 0.2;
         }
         
-        /* Hero Swiss */
-        .swiss-hero {
-            margin-top: 80px;
-            padding: 100px 0;
-            border-bottom: 2px solid #000;
+        /* Content */
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
         }
         
-        .hero-grid {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            gap: 20px;
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px;
+        .date-tag {
+            font-size: 0.8em;
+            letter-spacing: 3px;
+            color: #7888a8;
+            margin-bottom: 30px;
+            text-transform: uppercase;
         }
         
         .hero-title {
-            grid-column: 1 / 8;
-        }
-        
-        .hero-title h1 {
-            font-size: 7em;
+            font-size: 11em;
             font-weight: 900;
-            line-height: 0.9;
-            letter-spacing: -3px;
+            line-height: 0.85;
+            letter-spacing: -8px;
             margin-bottom: 40px;
+            font-family: 'Arial Black', sans-serif;
+            background: linear-gradient(135deg, #4B5EFC 0%, #D89B88 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         
-        .hero-title .subtitle {
-            font-size: 2em;
+        .hero-subtitle {
+            font-size: 1.5em;
             font-weight: 300;
-            margin-bottom: 40px;
-            border-left: 4px solid #000;
-            padding-left: 20px;
-        }
-        
-        .hero-info {
-            grid-column: 9 / 13;
-            padding-top: 20px;
-        }
-        
-        .info-block {
-            margin-bottom: 40px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #000;
-        }
-        
-        .info-block:last-child {
-            border-bottom: none;
-        }
-        
-        .info-label {
-            font-size: 0.75em;
-            text-transform: uppercase;
+            color: #5d5d5d;
             letter-spacing: 2px;
-            font-weight: 700;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
         
-        .info-content {
-            font-size: 1.1em;
-            font-weight: 300;
-            line-height: 1.8;
-        }
-        
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .stat-box {
-            border: 2px solid #000;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .stat-number {
-            font-size: 2.5em;
-            font-weight: 900;
-            line-height: 1;
-        }
-        
-        .stat-label {
-            font-size: 0.8em;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-top: 10px;
-            font-weight: 500;
-        }
-        
-        .cta-buttons {
-            display: flex;
-            gap: 20px;
-            margin-top: 60px;
-        }
-        
-        .swiss-btn {
-            padding: 20px 40px;
-            border: 2px solid #000;
-            background: #000;
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 0.9em;
-            letter-spacing: 2px;
-            transition: all 0.3s;
-            display: inline-block;
-        }
-        
-        .swiss-btn:hover {
-            background: #fff;
-            color: #000;
-        }
-        
-        .swiss-btn-outline {
-            background: #fff;
-            color: #000;
-        }
-        
-        .swiss-btn-outline:hover {
-            background: #000;
-            color: #fff;
-        }
-        
-        /* About Section */
-        .about-section {
-            padding: 120px 0;
-            border-bottom: 2px solid #000;
-        }
-        
-        .section-header {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px 60px;
-        }
-        
-        .section-number {
+        .hero-tagline {
             font-size: 1em;
-            font-weight: 900;
-            letter-spacing: 2px;
+            color: #7888a8;
+            font-style: italic;
+        }
+        
+        /* Projects - TERRACOTA */
+        .projects-section {
+            padding: 120px 60px;
+            position: relative;
+            background: linear-gradient(180deg, #faf8f6 0%, #f5f0eb 100%);
+        }
+        
+        /* Montañas sutiles TERRACOTA en projects */
+        .projects-mountains {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 25%;
+            z-index: 0;
+            opacity: 0.12;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }
         
         .section-title {
-            font-size: 4em;
+            font-size: 5.5em;
             font-weight: 900;
-            letter-spacing: -2px;
-            margin: 10px 0 20px;
-        }
-        
-        .section-desc {
-            font-size: 1.3em;
-            font-weight: 300;
-            max-width: 600px;
-            line-height: 1.6;
-        }
-        
-        .about-grid {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-        }
-        
-        .about-text h3 {
-            font-size: 2.5em;
-            font-weight: 900;
-            margin-bottom: 30px;
-            letter-spacing: -1px;
-        }
-        
-        .about-text p {
-            font-size: 1.1em;
-            font-weight: 300;
-            line-height: 1.9;
-            margin-bottom: 25px;
-        }
-        
-        .about-text strong {
-            font-weight: 700;
-        }
-        
-        .timeline {
-            border-left: 3px solid #000;
-            padding-left: 30px;
-        }
-        
-        .timeline-item {
-            margin-bottom: 50px;
+            margin-bottom: 80px;
+            font-family: 'Arial Black', sans-serif;
+            color: #3d3d3d;
             position: relative;
+            z-index: 1;
         }
         
-        .timeline-item::before {
+        .projects-grid {
+            display: grid;
+            gap: 50px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .project-card {
+            background: white;
+            padding: 70px;
+            border-radius: 32px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.06);
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Borde superior alternando colores */
+        .project-card:nth-child(1)::before {
             content: '';
             position: absolute;
-            left: -36px;
-            top: 5px;
-            width: 12px;
-            height: 12px;
-            background: #000;
-            border-radius: 50%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4B5EFC, #7B8CFF);
         }
         
-        .timeline-year {
-            font-size: 0.9em;
-            font-weight: 900;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
+        .project-card:nth-child(2)::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #D89B88, #E8AE9C);
         }
         
-        .timeline-title {
-            font-size: 1.5em;
-            font-weight: 700;
-            margin-bottom: 10px;
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 80px rgba(0,0,0,0.1);
         }
         
-        .timeline-company {
-            font-size: 1em;
-            font-weight: 500;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .timeline-desc {
-            font-size: 1em;
-            font-weight: 300;
-            line-height: 1.7;
-        }
-        
-        /* Projects Section */
-        .projects-section {
-            padding: 120px 0;
-            background: #f5f5f5;
-        }
-        
-        .project-grid {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px;
-        }
-        
-        .project-item {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 60px;
-            padding: 80px 0;
-            border-bottom: 2px solid #000;
-        }
-        
-        .project-item:last-child {
-            border-bottom: none;
-        }
-        
-        .project-number-large {
-            font-size: 10em;
-            font-weight: 900;
-            line-height: 0.8;
-            letter-spacing: -5px;
-        }
-        
-        .project-meta {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        .project-tag {
-            font-size: 0.8em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            background: #000;
-            color: #fff;
-            padding: 8px 16px;
-            display: inline-block;
-            align-self: flex-start;
-        }
-        
-        .project-content h3 {
-            font-size: 3em;
-            font-weight: 900;
-            margin-bottom: 30px;
-            letter-spacing: -1px;
-        }
-        
-        .project-content p {
-            font-size: 1.15em;
-            font-weight: 300;
-            line-height: 1.9;
-            margin-bottom: 30px;
-        }
-        
-        .metrics-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin: 40px 0;
-        }
-        
-        .metric-item {
-            border: 2px solid #000;
-            padding: 25px;
-            text-align: center;
-        }
-        
-        .metric-value {
-            font-size: 2.5em;
-            font-weight: 900;
-            line-height: 1;
-            display: block;
-        }
-        
-        .metric-text {
-            font-size: 0.75em;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-top: 10px;
-            font-weight: 500;
-        }
-        
-        .tech-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
-        .tech-item {
-            border: 1px solid #000;
-            padding: 8px 20px;
+        .project-number {
             font-size: 0.85em;
+            color: #b8b0a8;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 500;
+            font-weight: 600;
         }
         
-        .project-links {
+        .project-title {
+            font-size: 3.5em;
+            font-weight: 900;
+            margin-bottom: 30px;
+            font-family: 'Arial Black', sans-serif;
+            line-height: 1;
+            color: #3d3d3d;
+        }
+        
+        .project-desc {
+            font-size: 1.15em;
+            line-height: 1.9;
+            color: #5d5d5d;
+            margin-bottom: 40px;
+        }
+        
+        .tech-pills {
             display: flex;
             gap: 15px;
+            flex-wrap: wrap;
         }
         
-        /* Skills Section */
-        .skills-section {
-            padding: 120px 0;
-            border-top: 2px solid #000;
-        }
-        
-        .skills-grid {
-            max-width: 1400px;
-            margin: 60px auto 0;
-            padding: 0 40px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 2px;
-            background: #000;
-            border: 2px solid #000;
-        }
-        
-        .skill-box {
-            background: #fff;
-            padding: 40px;
-            min-height: 300px;
-        }
-        
-        .skill-box h3 {
-            font-size: 1.5em;
-            font-weight: 900;
-            margin-bottom: 30px;
-            letter-spacing: -0.5px;
-            text-transform: uppercase;
-        }
-        
-        .skill-items {
-            list-style: none;
-        }
-        
-        .skill-items li {
-            font-size: 0.95em;
-            font-weight: 300;
-            padding: 12px 0;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        .skill-items li:last-child {
-            border-bottom: none;
-        }
-        
-        /* Footer */
-        .swiss-footer {
-            background: #000;
-            color: #fff;
-            padding: 100px 0 40px;
-        }
-        
-        .footer-grid {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 40px;
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 80px;
-        }
-        
-        .footer-main h2 {
-            font-size: 4em;
-            font-weight: 900;
-            line-height: 1.1;
-            margin-bottom: 40px;
-            letter-spacing: -2px;
-        }
-        
-        .footer-main p {
-            font-size: 1.3em;
-            font-weight: 300;
-            margin: 15px 0;
-        }
-        
-        .footer-contact {
-            border-left: 3px solid #fff;
-            padding-left: 30px;
-        }
-        
-        .contact-label {
-            font-size: 0.75em;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        
-        .contact-info {
-            font-size: 1.1em;
-            font-weight: 300;
-            margin-bottom: 30px;
-        }
-        
-        .social-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-            margin-top: 40px;
-        }
-        
-        .social-link {
-            border: 2px solid #fff;
-            padding: 20px;
-            text-align: center;
-            text-decoration: none;
-            color: #fff;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        /* Tech pills alternando */
+        .project-card:nth-child(1) .tech-pill {
+            padding: 12px 28px;
+            background: #f0f2ff;
+            border-radius: 50px;
+            font-size: 0.9em;
+            color: #4B5EFC;
+            font-weight: 600;
+            border: 1px solid #d8ddff;
             transition: all 0.3s;
         }
         
-        .social-link:hover {
-            background: #fff;
-            color: #000;
+        .project-card:nth-child(1) .tech-pill:hover {
+            background: #4B5EFC;
+            color: white;
+            transform: translateY(-2px);
         }
         
-        .footer-bottom {
-            max-width: 1400px;
-            margin: 80px auto 0;
-            padding: 40px 40px 0;
-            border-top: 1px solid #fff;
+        .project-card:nth-child(2) .tech-pill {
+            padding: 12px 28px;
+            background: #faf8f6;
+            border-radius: 50px;
+            font-size: 0.9em;
+            color: #D89B88;
+            font-weight: 600;
+            border: 1px solid #e8e0d8;
+            transition: all 0.3s;
+        }
+        
+        .project-card:nth-child(2) .tech-pill:hover {
+            background: #D89B88;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        /* Footer */
+        .footer {
+            padding: 120px 60px 80px;
+            background: linear-gradient(135deg, #3d3d3d 0%, #2d2d2d 100%);
+            color: white;
             text-align: center;
-            font-size: 0.85em;
-            font-weight: 300;
-            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
         }
         
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .hero-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .hero-title {
-                grid-column: 1;
-            }
-            
-            .hero-info {
-                grid-column: 1;
-            }
-            
-            .about-grid,
-            .footer-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .project-item {
-                grid-template-columns: 1fr;
-            }
-            
-            .skills-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        /* Montañas en footer con ambos colores */
+        .footer-mountains {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 35%;
+            z-index: 0;
+            opacity: 0.1;
+        }
+        
+        .footer-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .footer-title {
+            font-size: 4.5em;
+            font-weight: 900;
+            margin-bottom: 60px;
+            font-family: 'Arial Black', sans-serif;
+        }
+        
+        .footer-info {
+            font-size: 1.3em;
+            margin: 25px 0;
+            color: #d4cac0;
+            font-weight: 300;
+        }
+        
+        .footer-divider {
+            width: 120px;
+            height: 3px;
+            background: linear-gradient(90deg, #4B5EFC, #D89B88);
+            margin: 40px auto;
         }
         
         @media (max-width: 768px) {
-            .hero-title h1 {
-                font-size: 4em;
-            }
-            
-            .nav-links {
-                display: none;
-            }
-            
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .metrics-grid {
-                grid-template-columns: 1fr;
-            }
+            .hero-title { font-size: 4.5em; letter-spacing: -4px; }
+            .section-title { font-size: 3em; }
+            .project-card { padding: 40px; }
         }
     </style>
 </head>
 <body>
-    <nav class="swiss-nav">
-        <div class="nav-content">
-            <div class="logo">ANDREA VARGAS</div>
-            <ul class="nav-links">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#parcours">Parcours</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <section class="hero">
+        <!-- Montañas SVG AZUL -->
+        <svg class="mountains-bg" viewBox="0 0 1200 300" preserveAspectRatio="none">
+            <polygon points="0,300 0,160 150,90 300,140 450,70 600,120 750,80 900,140 1050,100 1200,160 1200,300" 
+                     fill="#4B5EFC" opacity="0.5"/>
+            <polygon points="0,300 100,180 250,130 400,170 550,110 700,150 850,120 1000,160 1150,140 1200,170 1200,300" 
+                     fill="#3D4DD6" opacity="0.6"/>
+            <polygon points="0,300 50,220 200,180 350,210 500,170 650,200 800,180 950,210 1100,190 1200,210 1200,300" 
+                     fill="#3543C2" opacity="0.7"/>
+        </svg>
+        
+        <div class="hero-content">
+            <p class="date-tag">· Portfolio 2025 ·</p>
+            <h1 class="hero-title">
+                port<br>
+                folio
+            </h1>
+            <p class="hero-subtitle">Andrea Vargas</p>
+            <p class="hero-tagline">Data Analyst Marketing · 🇧🇴 De La Paz à Toulouse 🇫🇷</p>
         </div>
-    </nav>
+    </section>
     
-    <section class="swiss-hero" id="accueil">
-        <div class="hero-grid">
-            <div class="hero-title">
-                <h1>DATA<br>ANALYST<br>MARKETING</h1>
-                <p class="subtitle">Transformer les données en décisions stratégiques actionnables</p>
-                <div class="cta-buttons">
-                    <a href="#projets" class="swiss-btn">Voir projets</a>
-                    <a href="#contact" class="swiss-btn swiss-btn-outline">Contact</a>
-                </div>
-            </div>
+    <section class="projects-section">
+        <!-- Montañas sutiles TERRACOTA -->
+        <svg class="projects-mountains" viewBox="0 0 1200 200" preserveAspectRatio="none">
+            <polygon points="0,200 100,120 300,80 500,110 700,70 900,100 1100,85 1200,110 1200,200" 
+                     fill="#E8AE9C" opacity="0.5"/>
+            <polygon points="0,200 150,140 350,110 550,135 750,105 950,125 1150,115 1200,130 1200,200" 
+                     fill="#D89B88" opacity="0.6"/>
+        </svg>
+        
+        <div class="container">
+            <h2 class="section-title">pro<br>jets</h2>
             
-            <div class="hero-info">
-                <div class="info-block">
-                    <div class="info-label">Profil</div>
-                    <div class="info-content">
-                        Diplômée Master Économie Appliquée TSE. Spécialisée segmentation B2B, machine learning et optimisation marketing data-driven.
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-number">— PROJET 01</div>
+                    <h3 class="project-title">Sendvialo</h3>
+                    <p class="project-desc">
+                        Analyse complète de 58 envois internationaux avec Python et SQL. 
+                        Identification des corridors géographiques prioritaires Europe-Amérique 
+                        avec segmentation par équipement et analyse multi-devises.
+                    </p>
+                    <div class="tech-pills">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">SQL</span>
+                        <span class="tech-pill">Pandas</span>
+                        <span class="tech-pill">Scikit-learn</span>
+                        <span class="tech-pill">Excel</span>
                     </div>
                 </div>
                 
-                <div class="info-block">
-                    <div class="info-label">Localisation</div>
-                    <div class="info-content">
-                        Toulouse, France<br>
-                        Espagnol • Français • Anglais
-                    </div>
-                </div>
-                
-                <div class="info-block">
-                    <div class="info-label">Impact mesurable</div>
-                    <div class="stats-row">
-                        <div class="stat-box">
-                            <div class="stat-number">15K+</div>
-                            <div class="stat-label">Clients</div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-number">+15%</div>
-                            <div class="stat-label">Conversion</div>
-                        </div>
+                <div class="project-card">
+                    <div class="project-number">— PROJET 02</div>
+                    <h3 class="project-title">La Poste</h3>
+                    <p class="project-desc">
+                        Modèle K-means sur 15 000 clients B2B. Analyse de 12 variables 
+                        comportementales créant 4 segments homogènes avec score de silhouette 0.8. 
+                        Augmentation de 15% du taux de conversion.
+                    </p>
+                    <div class="tech-pills">
+                        <span class="tech-pill">K-means</span>
+                        <span class="tech-pill">Dataiku</span>
+                        <span class="tech-pill">Excel</span>
+                        <span class="tech-pill">PowerPoint</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="about-section" id="parcours">
-        <div class="section-header">
-            <div class="section-number">01 / PARCOURS</div>
-            <h2 class="section-title">Expérience & Formation</h2>
-            <p class="section-desc">De la Bolivie à la France, un parcours orienté impact business et excellence analytique</p>
-        </div>
+    <footer class="footer">
+        <!-- Montañas combinadas -->
+        <svg class="footer-mountains" viewBox="0 0 1200 200" preserveAspectRatio="none">
+            <polygon points="0,200 150,100 350,70 550,95 750,65 950,85 1150,75 1200,90 1200,200" 
+                     fill="#4B5EFC" opacity="0.5"/>
+            <polygon points="0,200 100,130 300,105 500,125 700,100 900,115 1100,105 1200,120 1200,200" 
+                     fill="#D89B88" opacity="0.6"/>
+        </svg>
         
-        <div class="about-grid">
-            <div class="about-text">
-                <h3>Profil</h3>
-                <p>Marketing Data Analyst avec <strong>Master en Économie Appliquée</strong> de Toulouse School of Economics (bourse Excellence Major AEFE).</p>
-                
-                <p>Spécialisée dans la <strong>transformation de données complexes en stratégies marketing actionnables</strong>. Expérience confirmée en segmentation B2B, modélisation prédictive et optimisation de décisions data-driven.</p>
-                
-                <p>Capacité démontrée à <strong>générer des résultats mesurables</strong> : +15% de taux de conversion chez Groupe La Poste, identification de 120K utilisateurs potentiels chez Sendvialo.</p>
-            </div>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-year">2025</div>
-                    <div class="timeline-title">Co-fondatrice</div>
-                    <div class="timeline-company">Sendvialo</div>
-                    <div class="timeline-desc">Architecture complète base de données SQL. Analyse stratégique identifiant 120K voyageurs annuels potentiels via Python et SQL.</div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2024</div>
-                    <div class="timeline-title">Data Analyst en Alternance</div>
-                    <div class="timeline-company">Groupe La Poste</div>
-                    <div class="timeline-desc">Modèle K-means sur 15K clients B2B. Score silhouette 0.8. Augmentation conversion +15%. Optimisation Datalake marketing.</div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2023-2024</div>
-                    <div class="timeline-title">Assistante de Recherche</div>
-                    <div class="timeline-company">Fondation Jean-Jacques Laffont</div>
-                    <div class="timeline-desc">Création base de données historique Excel. 95% de fiabilité sur 8000 entrées.</div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2021-2024</div>
-                    <div class="timeline-title">Master Économie Appliquée</div>
-                    <div class="timeline-company">Toulouse School of Economics</div>
-                    <div class="timeline-desc">Spécialisation Data Mining et Data Marketing. Projet Kaggle : 82% précision, classée 2ème.</div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="projects-section" id="projets">
-        <div class="section-header">
-            <div class="section-number">02 / PROJETS</div>
-            <h2 class="section-title">Réalisations Concrètes</h2>
-            <p class="section-desc">Analyses avec impact business mesurable et méthodologie rigoureuse</p>
-        </div>
-        
-        <div class="project-grid">
-            <div class="project-item">
-                <div class="project-meta">
-                    <div class="project-number-large">01</div>
-                </div>
-                <div class="project-content">
-                    <span class="project-tag">SQL • Python • Analyse Stratégique</span>
-                    <h3>Analyse Géographique Sendvialo</h3>
-                    <p>Analyse complète de 58 envois internationaux via architecture SQL relationnelle et Python. Identification corridors géographiques prioritaires Europe-Amérique. Segmentation par équipement, analyse multi-devises, estimation potentiel 120K voyageurs annuels.</p>
-                    
-                    <div class="metrics-grid">
-                        <div class="metric-item">
-                            <span class="metric-value">120K</span>
-                            <span class="metric-text">Voyageurs/an</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-value">58</span>
-                            <span class="metric-text">Envois analysés</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-value">4</span>
-                            <span class="metric-text">Tables SQL</span>
-                        </div>
-                    </div>
-                    
-                    <div class="tech-list">
-                        <span class="tech-item">Python</span>
-                        <span class="tech-item">SQL</span>
-                        <span class="tech-item">Pandas</span>
-                        <span class="tech-item">Plotly</span>
-                        <span class="tech-item">Seaborn</span>
-                    </div>
-                    
-                    <div class="project-links">
-                        <a href="#" class="swiss-btn">Voir analyse</a>
-                        <a href="#" class="swiss-btn swiss-btn-outline">GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-item">
-                <div class="project-meta">
-                    <div class="project-number-large">02</div>
-                </div>
-                <div class="project-content">
-                    <span class="project-tag">K-means • Scikit-learn • Dataiku</span>
-                    <h3>Segmentation B2B La Poste</h3>
-                    <p>Modèle K-means appliqué à 15000 clients B2B. Analyse 12 variables comportementales créant 4 segments homogènes. Recommandations stratégiques par segment implémentées par équipes commerciales. Optimisation autonome Datalake marketing réduisant temps préparation analyses de 30%.</p>
-                    
-                    <div class="metrics-grid">
-                        <div class="metric-item">
-                            <span class="metric-value">+15%</span>
-                            <span class="metric-text">Conversion</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-value">0.8</span>
-                            <span class="metric-text">Score silhouette</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-value">-30%</span>
-                            <span class="metric-text">Temps analyse</span>
-                        </div>
-                    </div>
-                    
-                    <div class="tech-list">
-                        <span class="tech-item">K-means</span>
-                        <span class="tech-item">Scikit-learn</span>
-                        <span class="tech-item">Dataiku</span>
-                        <span class="tech-item">SQL</span>
-                    </div>
-                    
-                    <div class="project-links">
-                        <a href="#" class="swiss-btn">Voir projet</a>
-                        <a href="#" class="swiss-btn swiss-btn-outline">Code</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-item">
-                <div class="project-meta">
-                    <div class="project-number-large">03</div>
-                </div>
-                <div class="project-content">
-                    <span class="project-tag">Plotly Dash • Visualisation</span>
-                    <h3>Dashboard Interactif Analytics</h3>
-                    <p>Dashboard dynamique temps réel analysant envois par équipement, routes, prix et tendances temporelles. Visualisations interactives permettant décisions éclairées instantanées. Interface intuitive pour stakeholders non-techniques.</p>
-                    
-                    <div class="metrics-grid">
-                        <div class="metric-item">
-                            <span class="metric-value">10+</span>
-                            <span class="metric-text">KPIs suivis</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-value">100%</span>
-                            <span class="metric-text">Temps réel</span>
-                        </div>
-                        <div class="metric-item">
-                            <span class="metric-value">∞</span>
-                            <span class="metric-text">Interactivité</span>
-                        </div>
-                    </div>
-                    
-                    <div class="tech-list">
-                        <span class="tech-item">Plotly Dash</span>
-                        <span class="tech-item">Python</span>
-                        <span class="tech-item">SQL</span>
-                    </div>
-                    
-                    <div class="project-links">
-                        <a href="#" class="swiss-btn">Demo live</a>
-                        <a href="#" class="swiss-btn swiss-btn-outline">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="skills-section" id="competences">
-        <div class="section-header">
-            <div class="section-number">03 / COMPÉTENCES</div>
-            <h2 class="section-title">Expertise Technique</h2>
-            <p class="section-desc">Palette complète orientée impact business et excellence analytique</p>
-        </div>
-        
-        <div class="skills-grid">
-            <div class="skill-box">
-                <h3>Analyse</h3>
-                <ul class="skill-items">
-                    <li>Python (Pandas, NumPy)</li>
-                    <li>SQL (requêtes complexes)</li>
-                    <li>R (statistiques)</li>
-                    <li>Excel Avancé (VBA)</li>
-                    <li>Dataiku</li>
-                </ul>
-            </div>
-            
-            <div class="skill-box">
-                <h3>Machine Learning</h3>
-                <ul class="skill-items">
-                    <li>Scikit-learn</li>
-                    <li>K-means clustering</li>
-                    <li>Random Forest</li>
-                    <li>XGBoost & LightGBM</li>
-                    <li>Modélisation prédictive</li>
-                </ul>
-            </div>
-            
-            <div class="skill-box">
-                <h3>Visualisation</h3>
-                <ul class="skill-items">
-                    <li>Power BI</li>
-                    <li>Plotly & Dash</li>
-                    <li>Matplotlib</li>
-                    <li>Seaborn</li>
-                    <li>Storytelling data</li>
-                </ul>
-            </div>
-            
-            <div class="skill-box">
-                <h3>Business</h3>
-                <ul class="skill-items">
-                    <li>Stratégie marketing</li>
-                    <li>Analyse marché</li>
-                    <li>Présentations exec</li>
-                    <li>Gestion projets</li>
-                    <li>Recommandations</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-    <footer class="swiss-footer" id="contact">
-        <div class="footer-grid">
-            <div class="footer-main">
-                <h2>Discutons de votre prochain projet data</h2>
-                <p>andreavargas1999@hotmail.com</p>
-                <p>+33 6 24 19 84 04</p>
-                <p>Toulouse, France</p>
-            </div>
-            
-            <div class="footer-contact">
-                <div class="contact-label">Disponibilité</div>
-                <div class="contact-info">Ouverte aux opportunités en data analytics et marketing data-driven</div>
-                
-                <div class="social-grid">
-                    <a href="#" class="social-link">LinkedIn</a>
-                    <a href="#" class="social-link">GitHub</a>
-                    <a href="#" class="social-link">Email</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            © 2025 ANDREA VARGAS / DATA ANALYST MARKETING / TOUS DROITS RÉSERVÉS
+        <div class="footer-content">
+            <h2 class="footer-title">contact</h2>
+            <div class="footer-divider"></div>
+            <p class="footer-info">andreavargas1999@hotmail.com</p>
+            <p class="footer-info">+33 6 24 19 84 04</p>
+            <p class="footer-info">Toulouse, France</p>
         </div>
     </footer>
 </body>
