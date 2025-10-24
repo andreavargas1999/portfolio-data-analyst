@@ -1,209 +1,183 @@
-# 🎨 Andrea Vargas | Portfolio Data Analyst Marketing
+# Andrea Vargas | Data Analyst
 
 <div align="center">
 
-[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-En_Ligne-success?style=for-the-badge)](https://andreavargas1999.github.io/portfolio-data-analyst/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andreanvp/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andreavargas1999@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andreanvp/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andreavargas1999@hotmail.com)
 
-**De La Paz à Toulouse | Transformant les données en décisions stratégiques**
+**De La Paz à Toulouse** | Data Analyst Marketing
+
+📍 Toulouse, France | 📱 +33 6 24 19 84 04
 
 </div>
 
 ---
 
-## 👋 Qui suis-je ?
+## Bonjour 👋
 
-Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en Économie Appliquée** à Toulouse School of Economics. Née en Bolivie 🇧🇴, j'ai développé une passion pour les données et leur capacité à raconter des histoires qui guident les décisions business.
+Je m'appelle Andrea, je suis bolivienne installée à Toulouse depuis 7 ans. Ce qui m'a toujours fasciné avec les données, c'est qu'elles racontent une histoire — il faut juste savoir les écouter. 
 
-**Mon approche :** Combiner rigueur analytique et sensibilité business pour transformer des millions de données en insights actionnables, accessibles à tous les stakeholders - techniques ou non.
+Mon parcours ? Master en économie appliquée à TSE, puis alternance chez La Poste où j'ai segmenté 15 000 clients B2B (résultat : +15% de conversion). Récemment, j'ai co-fondé une startup de logistique en Bolivie où j'ai construit toute l'architecture data de zéro.
 
-### 💼 Expérience Professionnelle
-
-**🚀 Co-fondatrice et Responsable Data** | SendVialo, La Paz (Fév - Oct 2025)
-- Conçu l'architecture complète de la **base de données relationnelle en SQL** (4 tables)
-- Réalisé une analyse stratégique (Python + SQL) identifiant **120 000 voyageurs potentiels/an**
-- Segmenté les corridors géographiques prioritaires pour orienter la stratégie de déploiement
-
-**📊 Data Analyst en alternance** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
-- Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
-- Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
-- Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
-
-**🔬 Assistante de Recherche** | Fondation Jean-Jacques Laffont, Toulouse (Oct 2023 - Avril 2024)
-- Créé une base de données historique avec **95% de fiabilité sur 8 000 entrées**
-
-### 🎓 Formation
-
-**Master en Économie Appliquée** | Toulouse School of Economics (2021-2024)
-- Spécialisation : Data Mining & Data Marketing
-- Formation aux méthodes d'analyse statistique, modélisation prédictive, exploitation de bases de données
-- **Projet final** : Modèles prédictifs (Random Forest, XGBoost) avec **82% de précision, classée 2ème**
-- Transformé les résultats en recommandations business concrètes
-
-**Licence en Économie et Gestion** | Université Toulouse 1 Capitole (2018-2021)
-- Bases solides en statistiques, économétrie, probabilités, mathématiques avec R
-- **Projet** : Analyse des écarts salariaux en Arménie 2015 avec modèle économétrique
-
-**Baccalauréat Français et Bolivien avec mention** | Lycée Franco-Bolivien, La Paz (2015-2018)
-- **Bourse Excellence Major** 
-- **Certificat de Reconnaissance du Vice-Président de la Bolivie**
+**Ce que je cherche :** Un poste de Data Analyst où mes compétences techniques (Python, SQL, Excel) et ma capacité à dialoguer avec les équipes business servent vraiment à prendre de meilleures décisions.
 
 ---
 
-## 🚀 Mes Projets
+## 💼 Parcours professionnel
 
-### 1. 🌍 Analyse Stratégique Sendvialo
+### SendVialo · Co-fondatrice & Responsable Data
+**La Paz, Bolivie** | Fév - Oct 2025
 
-> **Identifier les corridors géographiques à fort potentiel pour optimiser la stratégie de déploiement**
+J'ai monté la partie data de A à Z :
+- Conçu l'architecture SQL complète (4 tables relationnelles)
+- Analysé 58 envois internationaux pour identifier les corridors prioritaires
+- Résultat : détecté un potentiel de **120 000 voyageurs/an** sur les routes Europe-Amérique
 
-**Contexte :** Sendvialo est une plateforme connectant voyageurs et expéditeurs pour le transport de colis. En tant que co-fondatrice, j'ai analysé les données pour orienter nos décisions stratégiques.
-
-**Mon travail :**
-- Architecture complète de la base de données en SQL (4 tables) avec contrôles qualité
-- Analyses avec Excel et Python (Pandas) pour quantifier les opportunités
-- Identification des routes Europe ↔ Amérique les plus demandées
-- Segmentation par type d'équipement (documents, équipement standard, grands volumes)
-
-**Résultat :** Détection d'un potentiel de **120 000 voyageurs annuels**, orientant les investissements stratégiques
-
-**Technologies :** Python • SQL • Pandas • Scikit-learn • Excel
+**Tech utilisées :** Python (Pandas), SQL, Excel, Scikit-learn
 
 ---
 
-### 2. 👥 Segmentation Client B2B - Groupe La Poste
+### Groupe La Poste · Data Analyst (Alternance)
+**Bordeaux, France** | Avril - Oct 2024
 
-> **Augmenter le taux de conversion grâce à une segmentation intelligente des clients B2B**
+Mission principale : personnaliser l'approche commerciale B2B via la data.
 
-**Contexte :** Groupe La Poste souhaitait personnaliser son approche commerciale pour mieux cibler ses 15 000 clients B2B.
+Ce que j'ai fait :
+- Créé un modèle K-means pour segmenter 15 000 clients (4 segments, score 0.8)
+- Optimisé le Datalake marketing avec Dataiku → gain de **30% sur le temps d'analyse**
+- Développé des dashboards pour le suivi hebdomadaire des KPIs
 
-**Mon travail :**
-- Modèle de **clustering K-means** analysant 12 variables comportementales (4 segments, score 0.8)
-- Construction d'indicateurs de suivi et communication des insights aux équipes commerciales
-- Optimisation du Datalake marketing avec SQL et Dataiku
-- Développement de dashboards automatisés pour le suivi hebdomadaire
-- Collaboration avec les équipes marketing pour analyser les campagnes et calculer le ROI
+Impact direct : **+15% de taux de conversion** après mise en place des recommandations.
 
-**Résultat :** **+15% de taux de conversion** + **-30% de temps d'analyse**
-
-**Technologies :** K-means • Dataiku • SQL • Excel • PowerPoint
+**Tech utilisées :** K-means, Dataiku, SQL, Excel, PowerPoint
 
 ---
 
-## 🛠️ Stack Technique
+### Fondation Jean-Jacques Laffont · Assistante de Recherche
+**Toulouse, France** | Oct 2023 - Avril 2024
 
-### Langages & Analyse de Données
-- **Python** : Pandas, NumPy, Matplotlib (manipulation et analyse avancée)
-- **SQL** : Requêtes complexes, jointures, optimisation de bases de données
-- **R** : Analyse statistique, économétrie
-- **Excel Avancé** : VBA, Power Query, tableaux croisés dynamiques
-
-### Machine Learning & Modélisation
-- **Scikit-learn** : K-means, Random Forest, régression logistique
-- **XGBoost & LightGBM** : Modélisation prédictive (82% précision sur Kaggle)
-- **Segmentation RFM** : Analyse de la valeur client
-- **Statistiques** : Tests d'hypothèses, probabilités, économétrie
-
-### Visualisation & Business Intelligence
-- **Power BI** : Création de dashboards interactifs pour décideurs
-- **Plotly & Plotly Dash** : Visualisations dynamiques et applications web
-- **Seaborn & Matplotlib** : Graphiques statistiques avancés
-- **Dataiku** : Pipelines de données et visualisations
-
-### Outils & Méthodes
-- **Git & GitHub** : Versioning de code, collaboration
-- **Dataiku** : Automatisation des workflows data
-- **Jupyter Notebook** : Documentation et reproductibilité des analyses
-- **Méthode Agile** : Gestion de projets data en environnement dynamique
+Construit une base de données historique avec **95% de fiabilité** sur 8 000 entrées. Beaucoup de rigueur et de contrôles qualité.
 
 ---
 
-## 📈 Impact Mesurable
+## 🎓 Formation
 
-```
-✅ 15 000 clients B2B segmentés avec succès
-✅ +15% d'augmentation du taux de conversion
-✅ 120 000 utilisateurs potentiels identifiés
-✅ Score de silhouette 0,8 (excellent clustering)
-✅ -30% de temps de préparation des analyses
-✅ 82% de précision en modélisation prédictive (Kaggle)
-✅ 95% de fiabilité sur 8 000 entrées de base de données
-```
+**Master en Économie Appliquée** — Toulouse School of Economics (2021-2024)
+- Spécialisation Data Mining & Data Marketing
+- Projet final : modèles prédictifs (Random Forest, XGBoost) → **82% de précision, classée 2ème**
+
+**Licence Économie & Gestion** — Université Toulouse 1 Capitole (2018-2021)
+- Projet d'économétrie : analyse des écarts salariaux en Arménie
+
+**Baccalauréat Franco-Bolivien avec mention** — Lycée Franco-Bolivien, La Paz (2015-2018)
+- Bourse Excellence Major
+- Certificat de Reconnaissance du Vice-Président de Bolivie
 
 ---
 
-## 🌟 Mon Approche
+## 🚀 Projets
 
-**Orientée Business :** Je ne me contente pas d'analyser les chiffres - je traduis les données en recommandations concrètes et actionnables.
+### 📦 SendVialo : Analyse de corridors logistiques
 
-**Communication Claire :** Capacité à présenter des analyses complexes de manière accessible aux décideurs non-techniques.
+**Problème :** Une startup de transport de colis par voyageurs doit savoir où concentrer ses efforts.
 
-**Proactive & Autonome :** De la conception de l'architecture SQL à la présentation finale, je pilote mes projets de A à Z.
+**Ma solution :**
+- Analyse de 58 envois avec Python/SQL
+- Segmentation géographique + par type d'équipement
+- Identification des routes les plus demandées (Europe ↔ Amérique)
 
-**Sensibilité Multiculturelle :** Mon parcours de la Bolivie à la France m'a appris à comprendre les besoins réels derrière les chiffres et à adapter ma communication à différents contextes.
+**Résultat :** Recommandations stratégiques basées sur un potentiel de 120 000 voyageurs/an.
+
+**Stack :** Python · SQL · Pandas · Scikit-learn · Excel
+
+---
+
+### 👥 La Poste : Segmentation clients B2B
+
+**Problème :** 15 000 clients B2B avec des besoins différents → approche commerciale trop générique.
+
+**Ma solution :**
+- Clustering K-means sur 12 variables comportementales
+- 4 segments homogènes (score de silhouette 0.8)
+- Recommandations personnalisées par segment
+
+**Résultat :** +15% de conversion + dashboards automatisés qui font gagner 30% de temps aux équipes.
+
+**Stack :** K-means · Dataiku · SQL · Excel · PowerPoint
+
+---
+
+## 🛠️ Compétences techniques
+
+**Langages**
+- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+- SQL (requêtes complexes, jointures, optimisation)
+- R (statistiques, économétrie)
+
+**Data Viz & BI**
+- Dataiku (automatisation, dashboards)
+- Power BI (formation en cours)
+- Excel avancé (tableaux croisés, formules complexes, Power Query)
+
+**Machine Learning**
+- Clustering (K-means, segmentation RFM)
+- Modèles supervisés (Random Forest, XGBoost, régression logistique)
+- 82% de précision sur projet Kaggle
+
+**Outils**
+- Git & GitHub
+- Jupyter Notebook
+- PowerPoint pour présenter les résultats
 
 ---
 
 ## 🌎 Langues
 
-- 🇪🇸 **Espagnol** : Langue maternelle
-- 🇫🇷 **Français** : Bilingue (C2)
-- 🇬🇧 **Anglais** : Professionnel (B2-C1)
+- **Espagnol** : Langue maternelle
+- **Français** : Bilingue (C2)
+- **Anglais** : Professionnel
 
 ---
 
-## 📫 Me Contacter
+## 💡 Ce qui me différencie
 
-Je suis **ouverte aux opportunités** en Data Analytics, Marketing Analytics ou Business Intelligence.
+**Je sais dialoguer avec les non-techniques.** Mes analyses servent à prendre des décisions — donc je les rends accessibles. Chez La Poste, j'ai passé autant de temps à faire des analyses qu'à expliquer les résultats aux équipes commerciales.
 
-<div align="center">
+**J'aime construire des choses de zéro.** Que ce soit une base SQL pour une startup ou une segmentation client, j'aime démarrer d'une page blanche et livrer un outil qui fonctionne.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrea_Vargas-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/andreanvp/)
-[![Email](https://img.shields.io/badge/Email-andreavargas1999@hotmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andreavargas1999@hotmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Voir_mes_projets-FF6B6B?style=for-the-badge)](https://andreavargas1999.github.io/portfolio-data-analyst/)
-
-📍 **Toulouse, France**  
-📱 **+33 6 24 19 84 04**
-
-</div>
+**Je suis autonome.** De l'architecture des données à la présentation finale, je gère mes projets de bout en bout.
 
 ---
 
-## 🎨 À Propos de ce Portfolio
+## 📬 Contact
 
-Ce portfolio a été conçu avec un design moderne combinant **azul (#4B5EFC)** et **terracota (#D89B88)**, symbolisant mon parcours de La Paz 🇧🇴 à Toulouse 🇫🇷.
+Je cherche actuellement un **CDI en Data Analyst** (idéalement en remote hybride).
 
-**Éléments visuels :**
-- **Montañas SVG** : Silhouettes de la Cordillère des Andes en arrière-plan
-- **Gradient azul → terracota** : Mon voyage culturel et professionnel
-- **Design responsive** : Adapté à tous les écrans
+Si vous avez besoin de quelqu'un qui sait :
+- Manipuler des données (Python, SQL, Excel)
+- Créer des modèles pertinents (pas juste pour le plaisir)
+- Et surtout, expliquer les résultats clairement
 
-**Structure du projet :**
-```
-portfolio-data-analyst/
-├── index.html              # Page d'accueil
-├── README.md               # Ce fichier
-└── projets/                # Projets détaillés (à venir)
-```
+On peut discuter 👇
 
-**Technologies utilisées pour le portfolio :** HTML5, CSS3, SVG, GitHub Pages
+**Email :** andreavargas1999@hotmail.com  
+**LinkedIn :** [Andrea Vargas](https://www.linkedin.com/in/andreanvp/)  
+**Téléphone :** +33 6 24 19 84 04
 
 ---
 
-## 📝 Licence
+## 🎨 À propos de ce portfolio
 
-Ce portfolio est sous licence MIT. N'hésitez pas à vous en inspirer pour créer le vôtre !
+Design fait maison : **azul (#4B5EFC)** pour ma vie en France + **terracota (#D89B88)** pour mes racines boliviennes. Les montañas en arrière-plan ? La Cordillère des Andes, évidemment.
+
+**Technologies :** HTML5, CSS3, SVG
 
 ---
 
 <div align="center">
 
-### 🌟 Vous aimez mon travail ?
+*Dernière mise à jour : Janvier 2025*
 
-**N'hésitez pas à mettre une ⭐ sur ce repo si vous trouvez mon portfolio intéressant !**
-
-*De La Paz aux Pyrénées, les données racontent des histoires universelles* 🇧🇴 ✈️ 🇫🇷
-
-**Dernière mise à jour :** Janvier 2025
+🇧🇴 → 🇫🇷
 
 </div>
