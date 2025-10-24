@@ -15,11 +15,11 @@
 
 ## Bonjour 👋
 
-Je m'appelle Andrea, je suis bolivienne installée à Toulouse depuis 7 ans. Ce qui m'a toujours fasciné avec les données, c'est qu'elles racontent une histoire — il faut juste savoir les écouter. 
+Je m'appelle Andrea, je suis bolivienne installée à Toulouse depuis 7 ans. Ce qui m'a toujours fasciné avec les données, c'est qu'elles racontent une histoire il faut juste savoir les "écouter". 
 
-Mon parcours ? Master en économie appliquée à TSE, puis alternance chez La Poste où j'ai segmenté 15 000 clients B2B (résultat : +15% de conversion). Récemment, j'ai co-fondé une startup de logistique en Bolivie où j'ai construit toute l'architecture data de zéro.
+Mon parcours ? Master en économie appliquée à TSE, puis stage chez La Poste où j'ai segmenté 15 000 clients B2B (résultat : +15% de conversion). Récemment, j'ai co-fondé une startup de logistique en Bolivie où j'ai construit toute l'architecture data de zéro.
 
-**Ce que je cherche :** Un poste de Data Analyst où mes compétences techniques (Python, SQL, Excel) et ma capacité à dialoguer avec les équipes business servent vraiment à prendre de meilleures décisions.
+**Ce que je cherche :** Un poste de Data Analyst où mes compétences techniques (Python, SQL, Excel, R) et ma capacité à dialoguer avec les équipes business servent vraiment à prendre de meilleures décisions.
 
 ---
 
@@ -45,7 +45,7 @@ Mission principale : personnaliser l'approche commerciale B2B via la data.
 Ce que j'ai fait :
 - Créé un modèle K-means pour segmenter 15 000 clients (4 segments, score 0.8)
 - Optimisé le Datalake marketing avec Dataiku → gain de **30% sur le temps d'analyse**
-- Développé des dashboards pour le suivi hebdomadaire des KPIs
+- Vulgarisé les analyses complexes pour que les commerciaux sachent quoi faire avec
 
 Impact direct : **+15% de taux de conversion** après mise en place des recommandations.
 
@@ -70,7 +70,7 @@ Construit une base de données historique avec **95% de fiabilité** sur 8 000 e
 - Projet d'économétrie : analyse des écarts salariaux en Arménie
 
 **Baccalauréat Franco-Bolivien avec mention** — Lycée Franco-Bolivien, La Paz (2015-2018)
-- Bourse Excellence Major
+- Bourse Excellence Major 
 - Certificat de Reconnaissance du Vice-Président de Bolivie
 
 ---
