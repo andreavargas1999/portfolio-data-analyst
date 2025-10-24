@@ -20,15 +20,15 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 
 ### 💼 Expérience Professionnelle
 
-**📊 Data Analyst - Stage** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
-- Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
-- Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
-- Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
-
 **🚀 Co-fondatrice** | Sendvialo, La Paz (Fév - Oct 2025)
 - Conçu l'architecture complète de la **base de données relationnelle en SQL** (4 tables)
 - Réalisé une analyse stratégique (Python + SQL) identifiant **120 000 voyageurs potentiels/an**
 - Segmenté les corridors géographiques prioritaires pour orienter la stratégie de déploiement
+
+**📊 Data Analyst - Stage** | Groupe La Poste, Bordeaux (Avril - Oct 2024)
+- Développé un modèle de **segmentation K-means sur 15 000 clients B2B** → **+15% de taux de conversion**
+- Optimisé le Datalake marketing avec SQL et Dataiku → **-30% de temps de préparation des analyses**
+- Créé des dashboards interactifs pour accompagner les équipes dans leurs décisions stratégiques
 
 **🔬 Assistante de Recherche** | Fondation Jean-Jacques Laffont, Toulouse (Oct 2023 - Avril 2024)
 - Créé une base de données historique avec **95% de fiabilité sur 8 000 entrées**
@@ -51,16 +51,14 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 **Contexte :** Sendvialo est une plateforme connectant voyageurs et expéditeurs pour le transport de colis. En tant que co-fondatrice, j'ai analysé les données pour orienter nos décisions stratégiques.
 
 **Mon travail :**
-- Analyse de 58 envois internationaux avec Python (Pandas, Plotly) et SQL
+- Analyse d'envois internationaux avec Python (Pandas, Plotly) et SQL
 - Identification des routes Europe ↔ Amérique les plus demandées
 - Segmentation par type d'équipement (documents, équipement standard, grands volumes)
 - Analyse tarifaire multi-devises (EUR/USD) pour optimiser les prix
 
 **Résultat :** Estimation de **120 000 voyageurs annuels potentiels** sur les corridors prioritaires
 
-**Technologies :** Python • SQL • Pandas • Plotly • Seaborn • Matplotlib
-
-📂 **[Voir le projet complet →](projets/sendvialo-analyse/)** (Notebook Python + Visualisations interactives)
+**Technologies :** Python • SQL • Pandas • Scikit-learn • Excel
 
 ---
 
@@ -78,28 +76,7 @@ Je suis **Andrea Vargas**, Data Analyst Marketing diplômée d'un **Master en É
 
 **Résultat :** **+15% de taux de conversion** après implémentation des stratégies par segment
 
-**Technologies :** Python • Scikit-learn • K-means • Dataiku • SQL
-
-📂 **[Voir le projet complet →](projets/segmentation-laposte/)** (Code + Analyse détaillée)
-
----
-
-### 3. 📊 Dashboard Interactif de Suivi Marketing
-
-> **Donner aux décideurs un outil temps réel pour suivre les KPIs clés**
-
-**Contexte :** Besoin d'un outil visuel permettant aux équipes marketing et commerciales de suivre la performance en temps réel.
-
-**Mon travail :**
-- Dashboard dynamique avec Plotly Dash
-- Suivi de 10+ KPIs : demande par équipement, évolution des prix, tendances géographiques
-- Interface intuitive pour utilisateurs non-techniques
-
-**Résultat :** Outil de pilotage utilisé quotidiennement par les équipes
-
-**Technologies :** Plotly Dash • Python • SQL • Pandas
-
-📂 **[Voir la démo live →](projets/dashboard-interactif/)**
+**Technologies :** K-means • Dataiku • Excel • PowerPoint
 
 ---
 
@@ -184,20 +161,22 @@ Je suis **ouverte aux opportunités** en Data Analytics, Marketing Analytics ou 
 
 ## 🎨 À Propos de ce Portfolio
 
-Ce portfolio a été entièrement codé par moi-même en **HTML/CSS** avec un design Swiss minimaliste. 
+Ce portfolio a été conçu avec un design moderne combinant **azul (#4B5EFC)** et **terracota (#D89B88)**, symbolisant mon parcours de La Paz 🇧🇴 à Toulouse 🇫🇷.
+
+**Éléments visuels :**
+- **Montañas SVG** : Silhouettes de la Cordillère des Andes en arrière-plan
+- **Gradient azul → terracota** : Mon voyage culturel et professionnel
+- **Design responsive** : Adapté à tous les écrans
 
 **Structure du projet :**
 ```
 portfolio-data-analyst/
-├── index.html              # Page d'accueil (design Swiss)
+├── index.html              # Page d'accueil
 ├── README.md               # Ce fichier
-└── projets/                # Dossier des projets détaillés
-    ├── sendvialo-analyse/
-    ├── segmentation-laposte/
-    └── dashboard-interactif/
+└── projets/                # Projets détaillés (à venir)
 ```
 
-**Technologies utilisées pour le portfolio :** HTML5, CSS3, JavaScript, GitHub Pages
+**Technologies utilisées pour le portfolio :** HTML5, CSS3, SVG, GitHub Pages
 
 ---
 
